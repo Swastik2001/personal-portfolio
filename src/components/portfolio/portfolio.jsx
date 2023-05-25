@@ -25,7 +25,7 @@ const portfolio = () => {
         <div className='portfolio__item-image'>
          <img src={IMG3} alt="" />
         </div>
-        <h3>Black-Jack-Game </h3>
+        <h3>Black-Jack--Game </h3>
         <div className='portfolio__item-cta'>
          <a href="https://github.com/AnshikaPatra28/Black-Jack" className='btn' target='blank'>Github</a>
         </div>
