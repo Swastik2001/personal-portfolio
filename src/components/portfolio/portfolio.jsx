@@ -4,6 +4,8 @@ import IMG1 from '../../assets/img1.png'
 import IMG2 from '../../assets/img2.png'
 import IMG3 from '../../assets/img3.png'
 import IMG4 from '../../assets/img4.png'
+import IMG5 from '../../assets/img5.png'
+
 
 const portfolio = () => {
   return (
@@ -25,7 +27,7 @@ const portfolio = () => {
         <div className='portfolio__item-image'>
          <img src={IMG3} alt="" />
         </div>
-        <h3>Black-Jack--Game </h3>
+        <h3>Black-Jack-Game </h3>
         <div className='portfolio__item-cta'>
          <a href="https://github.com/AnshikaPatra28/Black-Jack" className='btn' target='blank'>Github</a>
         </div>
@@ -53,6 +55,15 @@ const portfolio = () => {
         </div>
       </article>
 
+      <article className='portfolio__items'>
+        <div className='portfolio__item-image'>
+            <img src={IMG5} alt="" />
+        </div>
+        <h3>DALL-E Clone</h3>
+        <div className='portfolio__item-cta'>
+         <a href="https://github.com/AnshikaPatra28/DALL-E-clone" className='btn' target='blank'>Github</a>
+        </div>
+      </article>
     </div>
    </section>
   )
