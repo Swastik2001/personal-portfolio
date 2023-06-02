@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me.jpg'
+import ME from '../../assets/me.jpeg'
 import {TbAward} from 'react-icons/tb'
 import {CiUser} from 'react-icons/ci'
 import {AiFillFolderOpen} from 'react-icons/ai'
@@ -22,23 +22,23 @@ const about = () => {
               <article className='about__card'>
                 <TbAward className='about__icon'/>
                 <h5>Experience</h5>
-                <small>no work yet</small>
+                <small>Currently a Technical Intern at HighRadius</small>
               </article>
 
                <article className='about__card'>
                 <CiUser className='about__icon'/>           
                 <h5>Education</h5>
-                <small>persuing Btech</small>
+                <small>Pursuing Btech in Computer Science</small>
               </article>
 
                <article className='about__card'>
                 <AiFillFolderOpen className='about__icon'/>
                 <h5>Projects</h5>
-                <small>5+ completed</small>
+                <small>10+ completed</small>
               </article>
             </div>
               <p>
-                Engineering student, currently pursuing B.Tech from Kalinga Institute of Industrial Technology in Computer Science and Communication Engineering. I am a hardworking and self motivated person. I use a creative approach to problem solving and always have a positive attitude.
+                Engineering student, currently pursuing B.Tech from Kalinga Institute of Industrial Technology in Computer Science and Engineering. I am a hardworking and self motivated person. I use a creative approach to problem solving and always have a positive attitude.
                               </p>
               <a href="#contact" className='btn btn-primary'>Let's Talk</a>
          </div>

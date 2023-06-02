@@ -3,8 +3,9 @@ import './portfolio.css'
 import IMG1 from '../../assets/img1.png'
 import IMG2 from '../../assets/img2.png'
 import IMG3 from '../../assets/img3.png'
-import IMG4 from '../../assets/img4.png'
+import IMG4 from '../../assets/img4.jpeg'
 import IMG5 from '../../assets/img5.png'
+import IMG6 from '../../assets/img6.png'
 
 
 const portfolio = () => {
@@ -17,9 +18,9 @@ const portfolio = () => {
         <div className='portfolio__item-image'>
             <img src={IMG1} alt="" />
         </div>
-        <h3>Guess the word game </h3>
+        <h3>Netflix Landing Page</h3>
         <div className='portfolio__item-cta'>
-        <a href="https://github.com/AnshikaPatra28/guess_the-_word_game" className='btn' target='blank'>Github</a>
+        <a href="https://github.com/Swastik2001/Netflix-Landing-Page" className='btn' target='blank'>Github</a>
         </div>
       </article>
 
@@ -27,9 +28,9 @@ const portfolio = () => {
         <div className='portfolio__item-image'>
          <img src={IMG3} alt="" />
         </div>
-        <h3>Black-Jack-Game </h3>
+        <h3>Snake Game</h3>
         <div className='portfolio__item-cta'>
-         <a href="https://github.com/AnshikaPatra28/Black-Jack" className='btn' target='blank'>Github</a>
+         <a href="https://github.com/Swastik2001/Snake-Game" className='btn' target='blank'>Github</a>
         </div>
       </article>
 
@@ -37,21 +38,19 @@ const portfolio = () => {
         <div className='portfolio__item-image'>
             <img src={IMG2} alt="" />
         </div>
-        <h3>Chrome-Extension</h3>
+        <h3>Chrome-Extension: Leads Tracker</h3>
         <div className='portfolio__item-cta'>
-        <a href="https://github.com/AnshikaPatra28/Chrome-Extension" className='btn' target='blank'>Github</a>
+        <a href="https://github.com/Swastik2001/chrome-extension-Leads-Tracker-" className='btn' target='blank'>Github</a>
         </div>
       </article>
-
-      
 
       <article className='portfolio__items'>
         <div className='portfolio__item-image'>
             <img src={IMG4} alt="" />
         </div>
-        <h3>Price-comparative-website-iPrice </h3>
+        <h3>Dall-E Clone</h3>
         <div className='portfolio__item-cta'>
-         <a href="https://github.com/AnshikaPatra28/Price-comparative-website-iPrice" className='btn' target='blank'>Github</a>
+         <a href="https://github.com/Swastik2001/dall-e-clone" className='btn' target='blank'>Github</a>
         </div>
       </article>
 
@@ -59,9 +58,18 @@ const portfolio = () => {
         <div className='portfolio__item-image'>
             <img src={IMG5} alt="" />
         </div>
-        <h3>DALL-E Clone</h3>
+        <h3>Gym Membership Website</h3>
         <div className='portfolio__item-cta'>
-         <a href="https://github.com/AnshikaPatra28/DALL-E-clone" className='btn' target='blank'>Github</a>
+         <a href="https://github.com/Swastik2001/gym-membership" className='btn' target='blank'>Github</a>
+        </div>
+      </article>
+    <article className='portfolio__items'>
+        <div className='portfolio__item-image'>
+            <img src={IMG6} alt="" />
+        </div>
+        <h3>People Counter</h3>
+        <div className='portfolio__item-cta'>
+         <a href="https://github.com/Swastik2001/people-counter" className='btn' target='blank'>Github</a>
         </div>
       </article>
     </div>

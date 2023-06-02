@@ -9,7 +9,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_ax3ihvl', 'template_uuc7dpb', form.current, 'owB_CKHFfnSdsLRp5')
+    emailjs.sendForm('service_7dw0c7y', 'template_d2y5r2a', form.current, '_LbreZHeqpJhSlIqg')
       e.target.reset()
   };
 
@@ -22,8 +22,7 @@ const Contact = () => {
           <article className='contact__option'>
             <AiOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>reach2anshikapatra2201@gmail.com</h5>
-            <a href="mailto:reach2anshikapatra2201@gmail.com" target='_blank'>Send a message</a>
+            <h5>swastikmohapatra01@gmail.com</h5>
           </article>
         </div>
         {/*END OF CONTACT OPTION*/}
